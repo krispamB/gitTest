@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice - [Your Company Name]</title>
+  <style>
+    /* Basic styles for the email */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>[Your Company Name] Invoice</h1>
+  </header>
+
+  <section>
+    <h2>Client Information</h2>
+    <p>
+      <b>Client Name:</b> [Client Name]<br>
+      <b>Client Email:</b> [Client Email]<br>
+    </p>
+  </section>
+
+  <section>
+    <h2>Invoice Information</h2>
+    <p>
+      <b>Invoice Number:</b> [Invoice Number]<br>
+      <b>Invoice Date:</b> [Invoice Date]<br>
+    </p>
+  </section>
+
+  <section>
+    <h2>Invoice Items</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>[Item Description 1]</td>
+          <td>[Item Quantity 1]</td>
+          <td>[Item Price 1]</td>
+          <td>[Item Amount 1]</td>
+        </tr>
+        <tr>
+          <td>[Item Description 2]</td>
+          <td>[Item Quantity 2]</td>
+          <td>[Item Price 2]</td>
+          <td>[Item Amount 2]</td>
+        </tr>
+        </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Invoice Summary</h2>
+    <table style="width: 50%">
+      <tbody>
+        <tr>
+          <th>Subtotal:</th>
+          <td>[Subtotal]</td>
+        </tr>
+        <tr>
+          <th>Tax (if applicable):</th>
+          <td>[Tax Amount]</td>
+        </tr>
+        <tr>
+          <th>Total:</th>
+          <td>[Total Amount]</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Payment Information</h2>
+    <p>
+      Please refer to the attached invoice PDF for detailed payment instructions.
+    </p>
+  </section>
+
+  <footer>
+    <p>Thank you for your business!</p>
+    <p>Sincerely,</p>
+    <p>[Your Company Name]</p>
+  </footer>
+</body>
+</html>
